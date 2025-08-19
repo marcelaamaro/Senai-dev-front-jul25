@@ -1,42 +1,58 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
     padding: 0px;
-margin: 0px;
-box-sizing: border-box}
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
 
 .cabecalho {
-
-    display: flex;
     width: 100%;
     height: 71px;
+    background-color: #3750b3;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3750b3;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+
+.logo {
     color: #ffffff;
-
-}
-
-.paginas{
-    margin: 18px;
-}
-
-.list {
-    display: flex;
-    list-style:none ;
-    align-items: center;
-
-
-}
-.list-item {
-padding: 18px;
+    text-decoration: none;
 }
 
 
+.paginas a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 18px;
+}
 
-.vingadores {
-   background-image: url("../site att layoult/assets/imgs/vingadores.jpg");
-   width: 1,680px;
-   height: 427px;
-   margin-top: 174px;
-   margin-left: 120px;
-   
+
+.conteudo {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+
+.fundo {
+    background-image: url("./assets/imgs/thor.jpg");
+    width: 100%;
+    height: 427px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+.titulo{
+margin-top: 80px;
+font-size: 64px;
+font-weight: normal;
+
+}
+.descricao{
+font-size: 32px;
+
 }
